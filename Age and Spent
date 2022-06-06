@@ -1,0 +1,6 @@
+SELECT
+ROUND(SUM(Amount_spent),0)AS total_spent,
+age
+FROM customer_data
+GROUP BY age
+ORDER BY total_spent 
