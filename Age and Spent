@@ -4,3 +4,7 @@ age
 FROM customer_data
 GROUP BY age
 ORDER BY total_spent  
+
+-- Query to show amount spent by different ages of customers. 
+--This would assist marketing/social media in choosing where to budget time and/or ad money. 
+--Ages that have spent less can be targeted.
